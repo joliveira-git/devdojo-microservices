@@ -1,0 +1,10 @@
+academy/devdojo/youtube/core/model/Course.class
+academy/devdojo/youtube/core/property/JwtConfiguration.class
+academy/devdojo/youtube/core/repository/CourseRepository.class
+academy/devdojo/youtube/core/model/Course$CourseBuilder.class
+META-INF/spring-configuration-metadata.json
+academy/devdojo/youtube/core/model/AbstractEntity.class
+academy/devdojo/youtube/core/repository/ApplicationUserRepository.class
+academy/devdojo/youtube/core/property/JwtConfiguration$Header.class
+academy/devdojo/youtube/core/model/ApplicationUser.class
+academy/devdojo/youtube/core/model/ApplicationUser$ApplicationUserBuilder.class

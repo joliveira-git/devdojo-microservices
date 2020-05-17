@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07f0b6f0-b3a0-4847-a591-fc4bbb9722c6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="devdojo@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="devdojo@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="devdojo@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="devdojo: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bVCoGT3Nxm2g7CeY7jgwzTHwuj" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/course" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21044546" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="academy.devdojo.youtube.course" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="academy.devdojo.youtube.auth.docs" />
+      <recent name="academy.devdojo.youtube.course.security.config" />
+      <recent name="academy.devdojo.youtube.security.config" />
+      <recent name="academy.devdojo.youtube.core.repository" />
+      <recent name="academy.devdojo.youtube.core.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/course" />
+      <recent name="$PROJECT_DIR$/course/src/main/resources" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/academy/devdojo/youtube/core/model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AuthApplicationTests">
+    <configuration name="AuthApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.devdojo.youtube.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="academy.devdojo.youtube.auth" />
+      <option name="MAIN_CLASS_NAME" value="academy.devdojo.youtube.auth.AuthApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="academy.devdojo.youtube.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="academy.devdojo.youtube.course.CourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="academy.devdojo.youtube.discovery.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="academy.devdojo.youtube.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AuthApplicationTests" />
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.CourseApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AuthApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.23551705" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:devdojo@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07f0b6f0-b3a0-4847-a591-fc4bbb9722c6" name="Default Changelist" comment="" />
+      <created>1588708046450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588708046450</updated>
+      <workItem from="1588708047653" duration="2774000" />
+      <workItem from="1588710842161" duration="13324000" />
+      <workItem from="1588767197325" duration="13000" />
+      <workItem from="1588792846459" duration="1001000" />
+      <workItem from="1588793886311" duration="10421000" />
+      <workItem from="1588858349044" duration="12000" />
+      <workItem from="1588887559806" duration="8437000" />
+      <workItem from="1588940614067" duration="600000" />
+      <workItem from="1589025533294" duration="599000" />
+      <workItem from="1589230216376" duration="11036000" />
+      <workItem from="1589315851878" duration="6516000" />
+      <workItem from="1589377461300" duration="27953000" />
+      <workItem from="1589465658578" duration="5502000" />
+      <workItem from="1589479783029" duration="53988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="957" y="78" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589404944368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="957" y="78" width="800" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589404944368" />
+    <state x="0" y="465" width="374" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1589555223309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="465" width="374" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589555223309" />
+    <state x="343" y="660" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589585987418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="343" y="660" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589585987418" />
+    <state x="671" y="615" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589585991990">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="615" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1589585991990" />
+    <state width="452" height="466" key="DebuggerActiveHint" timestamp="1589421099632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="452" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1589421099632" />
+    <state width="1411" height="127" key="GridCell.Tab.0.bottom" timestamp="1589723909122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589723909122" />
+    <state width="1411" height="127" key="GridCell.Tab.0.center" timestamp="1589723909121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589723909121" />
+    <state width="1411" height="127" key="GridCell.Tab.0.left" timestamp="1589723909121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589723909121" />
+    <state width="1411" height="127" key="GridCell.Tab.0.right" timestamp="1589723909121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589723909121" />
+    <state width="1411" height="127" key="GridCell.Tab.1.bottom" timestamp="1589723909122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="127" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589723909122" />
+    <state width="1411" height="127" key="GridCell.Tab.1.center" timestamp="1589723909122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="127" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589723909122" />
+    <state width="1411" height="127" key="GridCell.Tab.1.left" timestamp="1589723909122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="127" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589723909122" />
+    <state width="1411" height="127" key="GridCell.Tab.1.right" timestamp="1589723909122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="127" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589723909122" />
+    <state width="1411" height="121" key="GridCell.Tab.2.bottom" timestamp="1589624650506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="121" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589624650506" />
+    <state width="1411" height="121" key="GridCell.Tab.2.center" timestamp="1589624650506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="121" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589624650506" />
+    <state width="1411" height="121" key="GridCell.Tab.2.left" timestamp="1589624650506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="121" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589624650506" />
+    <state width="1411" height="121" key="GridCell.Tab.2.right" timestamp="1589624650506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1411" height="121" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589624650506" />
+    <state x="443" y="96" width="1024" height="840" key="SettingsEditor" timestamp="1588710819129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="443" y="96" width="1024" height="840" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588710819129" />
+    <state x="630" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1588941375625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588941375625" />
+    <state x="570" y="76" width="793" height="964" key="find.popup" timestamp="1589582822944">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="570" y="76" width="793" height="964" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589582822944" />
+    <state x="340" y="425" width="1294" height="585" key="new project wizard" timestamp="1589470670216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="340" y="425" width="1294" height="585" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589470670216" />
+    <state x="624" y="238" key="run.anything.popup" timestamp="1589319680411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="238" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589319680411" />
+    <state x="524" y="41" width="672" height="676" key="search.everywhere.popup" timestamp="1589567874346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="524" y="41" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589567874346" />
+  </component>
+</project>

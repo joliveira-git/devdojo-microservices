@@ -1,0 +1,32 @@
+server:
+  port: 8083
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    register-with-eureka: true
+
+spring:
+  application:
+    name: auth
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  jmx:
+    enabled: false
+  datasource:
+    url: jdbc:mysql://localhost:3307/devdojo?allowPublicKeyRetrieval=true&sslMode=DISABLED
+    username: root
+    password: root
+
+jwt:
+  config:
+    type: signed
+

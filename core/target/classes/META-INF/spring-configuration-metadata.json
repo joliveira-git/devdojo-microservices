@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "academy.devdojo.youtube.core.property.JwtConfiguration",
+      "sourceType": "academy.devdojo.youtube.core.property.JwtConfiguration"
+    },
+    {
+      "name": "jwt.config.header",
+      "type": "academy.devdojo.youtube.core.property.JwtConfiguration$Header",
+      "sourceType": "academy.devdojo.youtube.core.property.JwtConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.expiration",
+      "type": "java.lang.Integer",
+      "sourceType": "academy.devdojo.youtube.core.property.JwtConfiguration",
+      "defaultValue": 3600
+    },
+    {
+      "name": "jwt.config.header.name",
+      "type": "java.lang.String",
+      "sourceType": "academy.devdojo.youtube.core.property.JwtConfiguration$Header",
+      "defaultValue": "Authorization"
+    },
+    {
+      "name": "jwt.config.header.prefix",
+      "type": "java.lang.String",
+      "sourceType": "academy.devdojo.youtube.core.property.JwtConfiguration$Header",
+      "defaultValue": "Bearer "
+    },
+    {
+      "name": "jwt.config.login-url",
+      "type": "java.lang.String",
+      "sourceType": "academy.devdojo.youtube.core.property.JwtConfiguration",
+      "defaultValue": "\/login\/**"
+    },
+    {
+      "name": "jwt.config.private-key",
+      "type": "java.lang.String",
+      "sourceType": "academy.devdojo.youtube.core.property.JwtConfiguration",
+      "defaultValue": "f39bYJ4ch5lHo09iChokKi4DbJVicjnY"
+    },
+    {
+      "name": "jwt.config.type",
+      "type": "java.lang.String",
+      "sourceType": "academy.devdojo.youtube.core.property.JwtConfiguration",
+      "defaultValue": "encrypted"
+    }
+  ],
+  "hints": []
+}
