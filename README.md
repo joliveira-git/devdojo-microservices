@@ -1,4 +1,4 @@
-#Spring Boot Microservices
+# Spring Boot Microservices
 Willian Suane 
 DevDojo Academy
 Durante o curso foi implementado o back-end de uma aplicação utilizando a arquitetura microservices. Em linhas gerais, essa arquitetura consiste em gerar um coleção de pequenos serviços autônomos, onde cada um é implementado de forma independente uma única funcionalidade e se comunica de forma simples, geralmente por meio de uma API REST utilizando o protocolo HTTP.
