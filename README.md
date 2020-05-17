@@ -1,6 +1,8 @@
 # Spring Boot Microservices
-Willian Suane 
-DevDojo Academy
+
+
+Back-end baseado na arquitetura microservices, resultado do curso SpringBoot Microservices realizado por Willian Suane (DevDojo Academy)
+
 Durante o curso foi implementado o back-end de uma aplicação utilizando a arquitetura microservices. Em linhas gerais, essa arquitetura consiste em gerar um coleção de pequenos serviços autônomos, onde cada um é implementado de forma independente uma única funcionalidade e se comunica de forma simples, geralmente por meio de uma API REST utilizando o protocolo HTTP.
 Na arquitetura microservices típica existem serviços com diversas atribuições e além disso há regras estabelecidas para a comunicação. Em resumo, podemos dizer que os serviços não devem ser acessados de forma direta. Todas as requisições devem passar pelo router/gateway que se comunica com o service discovery que é o responsável pela identificação do serviço que está sendo solicitado. A aplicação cliente deve fazer a primeira requisição ao serviço de autenticação (auth).
 O serviço de autenticação retorna um JWE Token que ficará guardado do lado do cliente para ser usado nas próximas requisições. A partir, o token será usado a cada nova requisição de serviço e o cliente deverá encaminhá-lo ao router/gateway.
