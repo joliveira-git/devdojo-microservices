@@ -1,24 +1,18 @@
 # Spring Boot Microservices
 
-
 Back-end baseado na arquitetura microservices, resultado do curso SpringBoot Microservices realizado por Willian Suane (DevDojo Academy)
 
-Durante o curso foi implementado o back-end de uma aplicação utilizando a arquitetura microservices. Em linhas gerais, essa arquitetura consiste em gerar um coleção de pequenos serviços autônomos, onde cada um é implementado de forma independente uma única funcionalidade e se comunica de forma simples, geralmente por meio de uma API REST utilizando o protocolo HTTP.
-Na arquitetura microservices típica existem serviços com diversas atribuições e além disso há regras estabelecidas para a comunicação. Em resumo, podemos dizer que os serviços não devem ser acessados de forma direta. Todas as requisições devem passar pelo router/gateway que se comunica com o service discovery que é o responsável pela identificação do serviço que está sendo solicitado. A aplicação cliente deve fazer a primeira requisição ao serviço de autenticação (auth).
-O serviço de autenticação retorna um JWE Token que ficará guardado do lado do cliente para ser usado nas próximas requisições. A partir, o token será usado a cada nova requisição de serviço e o cliente deverá encaminhá-lo ao router/gateway.
-O router/gateway, por sua vez, irá verifica se o token é válido e em caso positivo, o encaminha ao serviço (assinado (JWS) ou criptografado (JWE)).
-Esse mecanismo é importante porque além de trazer segurança ao processo, também nos dá a possibilidade de escalar a aplicação de acordo com a necessidade.
+Durante o curso foi implementado o back-end de uma aplicação utilizando a arquitetura de microserviços. Em linhas gerais, a arquitetura de microsserviços consiste em uma coleção de pequenos serviços autônomos e independentes, em que cada  um deles deve ser responsável por uma única funcionalidade. Nessa arquitetura, além dos serviços típicos que são construídos para atender as regras do negócio, há também outros, que servem para suportar a operação. 
+Em síntese, o fluxo da comunicação ocorre da seguinte maneira: os serviços não devem ser acessados de forma direta, por isso, todas as requisições precisam passar por um ponto central que é o Router / Gateway. O Gatway não conhece os serviços e por isso ele necessita se comunicar com o Service Discovery para localizar o serviço solicitado. Para que a localização seja possível, todos os serviços precisam estar registrados no Service Discovery. A primeira requisicação da aplicação cliente deve ser feita ao serviço de autenticação. O serviço de autenticação irá retornar um JWE Token que ficará guardado do lado do cliente para ser usado nas próximas requisições. A partir daí, os demais serviços poderão ser acessados. Esse mecanismo é importante porque além de trazer segurança ao processo, também nos dá a possibilidade de escalar a aplicação de acordo com a demanda da operação.
+
 
 Durante o curso foram implementados os seguintes módulos:
+- gateway: Serviço de Router / Gateway
+- discovery: Serviço de Service Discovery
+- auth: Serviço de autenticação
+- token: Serviço para geração de tokens assinados / criptografados
 - core: módulo onde ficam as classes comuns às demais classes. Nesse módulo estão o model e o repository.
-- course: microserviço. Nesse módulo fica api rest para acessar os recursos do microserviço (controller e o service)
-- Serviço de Autenticação
-- Microserviço
-- Bibliotecas para criptografar e assinar o token
-- auth
-- discovery
-- gateway
-- token
+- course: microserviço de negócio. Nesse módulo fica api rest para acessar os recursos.
 
 Tecnologias Utilizadas:
 - Zuul (Gateway da Netflix)
@@ -27,7 +21,7 @@ Tecnologias Utilizadas:
 - Spring Framework: para prover a injeção de dependência
 - Spring Data: Para facilitar o acesso e manipulação dos dados das entidades do banco
 - Spring Web: Para implementar a api REST
-- Spring Cloud: Para prover a orquestração de serviços: o Eurika Server (Registry, Config Server e Distributed Tracing)
+- Spring Cloud: Para prover a orquestração dos serviços: o Eurika Server (Registry, Config Server e Distributed Tracing)
 - Spring Security: Para implementar o serviço de autorização e autenticação
 - Nimbus-Jose: Token para Web Services REST
 - Lombok: Biblioteca usada para reduzir o código boiler plate
@@ -65,8 +59,7 @@ DMZ
 # Service Discovery
 Responsável pela identificação do serviço que será utilizado.
 
-# Service Discovery Server
-Service Discovery Eureka da NetFlix
+- Service Discovery Server: Service Discovery Eureka da NetFlix
 
 Ao instanciar um serviço ele irá se registrar no Service Discovery Server. O Gateway também precisa se registrar no service discovery
 
