@@ -6,7 +6,7 @@ Durante o curso foi implementado o back-end de uma aplicação utilizando a arqu
 Em síntese, o fluxo da comunicação ocorre da seguinte maneira: os serviços não devem ser acessados de forma direta, por isso, todas as requisições precisam passar por um ponto central que é o Router / Gateway. O Gatway não conhece os serviços e por isso ele necessita se comunicar com o Service Discovery para localizar o serviço solicitado. Para que a localização seja possível, todos os serviços precisam estar registrados no Service Discovery. A primeira requisicação da aplicação cliente deve ser feita ao serviço de autenticação. O serviço de autenticação irá retornar um JWE Token que ficará guardado do lado do cliente para ser usado nas próximas requisições. A partir daí, os demais serviços poderão ser acessados. Esse mecanismo é importante porque além de trazer segurança ao processo, também nos dá a possibilidade de escalar a aplicação de acordo com a demanda da operação.
 
 
-Durante o curso foram implementados os seguintes módulos:
+Foram implementados os seguintes módulos:
 - gateway: Serviço de Router / Gateway
 - discovery: Serviço de Service Discovery
 - auth: Serviço de autenticação
