@@ -32,6 +32,7 @@ Tecnologias Utilizadas:
 - Postman: Cliente REST
 
 Arquitetura
+```
 --------------
  Client Side
 --------------
@@ -53,7 +54,7 @@ DMZ
        |               v            v         |         |
        v                --------------        v         v
       ( DB )                 (DB)            (DB)      (DB) 
-
+```
 
 
 # Service Discovery
