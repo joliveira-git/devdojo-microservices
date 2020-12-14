@@ -20,7 +20,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
-        <nimbus-jose-version>7.0</nimbus-jose-version>
+        <nimbus-jose-version>7.9</nimbus-jose-version>
         <commons-lang3-version>3.8.1</commons-lang3-version>
         <swagger-version>2.9.2</swagger-version>
     </properties>
